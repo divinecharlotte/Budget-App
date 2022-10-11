@@ -10,6 +10,7 @@ gem 'rails', '~> 7.0.4'
 gem 'sprockets-rails'
 
 gem 'rubocop', '>= 1.0', '< 2.0'
+gem 'devise'
 
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.1'
