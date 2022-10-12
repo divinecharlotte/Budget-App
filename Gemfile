@@ -11,7 +11,12 @@ gem 'sprockets-rails'
 
 gem 'devise'
 gem 'rubocop', '>= 1.0', '< 2.0'
-
+group :development, :test do
+  gem 'rspec-rails'
+end
+gem 'childprocess'
+gem 'ffi'
+gem 'rails-controller-testing'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.1'
 
