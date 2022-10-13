@@ -19,8 +19,6 @@ RSpec.describe User, type: :model do
   end
 
   context 'Return invalid data' do
-
-
     it 'should not accept blank email' do
       subject.email = nil
       expect(subject).to_not be_valid
