@@ -3,8 +3,6 @@
 
 ## lIVE DEMO
 - This is the link to the website:[BUDGET APP](https://evening-island-47181.herokuapp.com/)
-## Project documentation
-[Documentation video](https://www.loom.com/share/3e03c990ef2c4170ac7c5b5b0da8fbcc)
 
 ## Built with
 - Ruby
