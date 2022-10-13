@@ -3,7 +3,6 @@ RSpec.describe 'groups/index', type: :feature do
   before do
     @user = User.create(name: 'full name', email: 'name@gmail.com', password: 'password')
     @group = @user.groups.create(name: 'group 1', icon: 'http://localhost:3000/icon.png', author: @user)
-
     visit(new_user_session_path)
     fill_in 'user[email]', with: @user.email
     fill_in 'user[password]', with: @user.password
