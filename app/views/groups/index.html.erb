@@ -1,5 +1,6 @@
 <section class = 'main-section'>
 <h1 class="content-header">CATEGORIES</h1>
+ <%= button_to "Log out", destroy_user_session_path, method: :delete %>
 <%= render 'card' %>
 <div class="content-cont">
   <% @groups.each do |group| %>
