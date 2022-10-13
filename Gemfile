@@ -9,12 +9,12 @@ gem 'rails', '~> 7.0.4'
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'sprockets-rails'
 
-gem 'childprocess'gem 'devise'
+gem 'devise'
 gem 'rubocop', '>= 1.0', '< 2.0'
 group :development, :test do
   gem 'rspec-rails'
 end
-
+gem 'childprocess'
 gem 'ffi'
 gem 'rails-controller-testing'
 
